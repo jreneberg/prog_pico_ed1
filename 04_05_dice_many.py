@@ -22,4 +22,3 @@ while True:
     dice_throw = throw_dice(num_dice=2)
     print(dice_throw)
     blink(dice_throw, 0.2)
-    

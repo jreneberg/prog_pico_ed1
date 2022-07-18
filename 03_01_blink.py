@@ -8,4 +8,3 @@ while True:
     sleep(0.5) # pause
     led.off()
     sleep(0.5)
-    

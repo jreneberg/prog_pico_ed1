@@ -1,0 +1,6 @@
+def print_polite(text):
+    print(text + " please")
+    
+response = input("Enter a phrase: ")
+    
+print_polite(response)

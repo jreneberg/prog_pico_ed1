@@ -19,5 +19,3 @@ while True:
     dice_throw = throw_dice()
     print(dice_throw)
     blink(dice_throw, 0.2)
-
-
