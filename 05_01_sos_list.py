@@ -11,4 +11,3 @@ while True:
         sleep(delay)
         led.off()
         sleep(delay)
-        

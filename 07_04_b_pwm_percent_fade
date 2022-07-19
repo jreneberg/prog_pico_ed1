@@ -1,0 +1,22 @@
+from machine import Pin, PWM
+from utime import sleep
+
+led = PWM(Pin(25))
+count = 0
+Inc = True
+
+while True:
+    brightness = int(int(count) * 65534 / 100)
+    led.duty_u16(brightness)
+    
+    if count >= 100:
+        Inc = False
+    elif count <= 1:
+        Inc = True
+    
+    if Inc == True:
+        count += 1
+    elif Inc == False:
+        count -= 1
+        
+    sleep(0.01)
