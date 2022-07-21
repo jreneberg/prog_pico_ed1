@@ -13,5 +13,3 @@ while True:
     temp_c = read_temp_c()
     print(temp_c)
     sleep(0.5)
-
-
